@@ -1,0 +1,12 @@
+schema_version = "1.0.0"
+id = "editcheck"
+version = "0.1.0"
+name = "EditCheck"
+tagline = "Check live video timelines and verify research figure provenance"
+maintainer = "EditCheck contributors"
+type = "add-on"
+blender_version_min = "4.5.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Check source media and selected research files and export a local report"
