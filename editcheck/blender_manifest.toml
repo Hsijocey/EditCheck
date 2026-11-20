@@ -9,4 +9,4 @@ blender_version_min = "4.5.0"
 license = ["SPDX:GPL-3.0-or-later"]
 
 [permissions]
-files = "Check source media and selected research files and export a local report"
+files = "Check local media and figure files and save reports"

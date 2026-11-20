@@ -1,0 +1,136 @@
+{
+  "blender": "4.5.16 LTS",
+  "baseline": {
+    "schema_version": 1,
+    "version": "0.1.0",
+    "number": 1,
+    "checked_at": "2026-11-20T01:36:40+00:00",
+    "snapshot": {
+      "scene": "EditCheck Smoke Test",
+      "profile": {
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0
+      },
+      "clips": [
+        {
+          "name": "Results",
+          "track": 2,
+          "start": 145,
+          "stop": 289,
+          "muted": false,
+          "missing_sources": [],
+          "proxy_enabled": false
+        }
+      ]
+    },
+    "expected": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0
+    },
+    "issues": [],
+    "changes": []
+  },
+  "moved": {
+    "schema_version": 1,
+    "version": "0.1.0",
+    "number": 2,
+    "checked_at": "2026-11-20T01:36:40+00:00",
+    "snapshot": {
+      "scene": "EditCheck Smoke Test",
+      "profile": {
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0
+      },
+      "clips": [
+        {
+          "name": "Results",
+          "track": 2,
+          "start": 193,
+          "stop": 337,
+          "muted": false,
+          "missing_sources": [],
+          "proxy_enabled": false
+        }
+      ]
+    },
+    "expected": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0
+    },
+    "issues": [],
+    "changes": [
+      {
+        "name": "Results",
+        "before": {
+          "name": "Results",
+          "track": 2,
+          "start": 145,
+          "stop": 289,
+          "muted": false,
+          "missing_sources": [],
+          "proxy_enabled": false
+        },
+        "after": {
+          "name": "Results",
+          "track": 2,
+          "start": 193,
+          "stop": 337,
+          "muted": false,
+          "missing_sources": [],
+          "proxy_enabled": false
+        }
+      }
+    ]
+  },
+  "blocked": {
+    "schema_version": 1,
+    "version": "0.1.0",
+    "number": 3,
+    "checked_at": "2026-11-20T01:36:40+00:00",
+    "snapshot": {
+      "scene": "EditCheck Smoke Test",
+      "profile": {
+        "width": 1280,
+        "height": 720,
+        "fps": 30.0
+      },
+      "clips": [
+        {
+          "name": "Results",
+          "track": 2,
+          "start": 193,
+          "stop": 337,
+          "muted": false,
+          "missing_sources": [
+            "sample.png"
+          ],
+          "proxy_enabled": false
+        }
+      ]
+    },
+    "expected": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0
+    },
+    "issues": [
+      {
+        "code": "MISSING_ORIGINAL",
+        "subject": "Results",
+        "detail": "Track 2, frames 193–336. Missing: sample.png.",
+        "level": "error"
+      },
+      {
+        "code": "FRAME_RATE_MISMATCH",
+        "subject": "EditCheck Smoke Test",
+        "detail": "Expected 24 fps; found 30 fps.",
+        "level": "error"
+      }
+    ],
+    "changes": []
+  }
+}
