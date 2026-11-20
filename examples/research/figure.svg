@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="210" viewBox="0 0 330 210" role="img">
+<title>Three illustrative measurements in minutes</title>
+<rect width="330" height="210" fill="#f2f6f3"/><path d="M24 154H306" stroke="#31473e"/>
+<rect x="40" y="106" width="44" height="48" fill="#31846d"/><rect x="130" y="90" width="44" height="64" fill="#31846d"/><rect x="220" y="74" width="44" height="80" fill="#31846d"/>
+<text x="24" y="185" fill="#22352c" font-size="16">Mean: 16.0 min</text>
+</svg>

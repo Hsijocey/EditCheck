@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "figures": [
+    {
+      "name": "Example methods figure",
+      "artifact": {
+        "path": "figure.svg",
+        "sha256": "e2a54757f97c3aead183c0d1918d34af55b6886b339c3fb4438940d0439e4057"
+      },
+      "script": {
+        "path": "generate_figure.py",
+        "sha256": "fb563938f5a00f1bc59d21c57088f734a005317625fcfb51aa0c7af25f98b01d"
+      },
+      "inputs": [
+        {
+          "path": "measurements.csv",
+          "sha256": "dd74cf0fbb40facbf40d4f2375fd72b65ddbd6fd99fa4c4979a00687933d3b12"
+        }
+      ]
+    }
+  ]
+}
